@@ -42,24 +42,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01_Strategy\Duck.cs" />
-    <Compile Include="01_Strategy\FlyNoWay.cs" />
-    <Compile Include="01_Strategy\FlyRockedPowered.cs" />
-    <Compile Include="01_Strategy\FlyWithWings.cs" />
-    <Compile Include="01_Strategy\IFlyBehavior.cs" />
-    <Compile Include="01_Strategy\IQuackBehavior.cs" />
-    <Compile Include="01_Strategy\MallardDuck.cs" />
-    <Compile Include="01_Strategy\MiniDuckSimulator.cs" />
-    <Compile Include="01_Strategy\ModelDuck.cs" />
-    <Compile Include="01_Strategy\MuteQuack.cs" />
-    <Compile Include="01_Strategy\Quack.cs" />
-    <Compile Include="01_Strategy\Squeak.cs" />
+    <Compile Include="Content\01_Strategy\Duck.cs" />
+    <Compile Include="Content\01_Strategy\FlyNoWay.cs" />
+    <Compile Include="Content\01_Strategy\FlyRockedPowered.cs" />
+    <Compile Include="Content\01_Strategy\FlyWithWings.cs" />
+    <Compile Include="Content\01_Strategy\IFlyBehavior.cs" />
+    <Compile Include="Content\01_Strategy\IQuackBehavior.cs" />
+    <Compile Include="Content\01_Strategy\MallardDuck.cs" />
+    <Compile Include="Content\01_Strategy\MiniDuckSimulator.cs" />
+    <Compile Include="Content\01_Strategy\ModelDuck.cs" />
+    <Compile Include="Content\01_Strategy\MuteQuack.cs" />
+    <Compile Include="Content\01_Strategy\Quack.cs" />
+    <Compile Include="Content\01_Strategy\Squeak.cs" />
+    <Compile Include="Content\02_Observer\HeadFirst\CIDisplayElement.cs" />
+    <Compile Include="Content\02_Observer\HeadFirst\CIObserver.cs" />
+    <Compile Include="Content\02_Observer\HeadFirst\CISubject.cs" />
+    <Compile Include="Content\02_Observer\HeadFirst\CurrentConditionsDisplay.cs" />
+    <Compile Include="Content\02_Observer\Microsoft\Measurement.cs" />
+    <Compile Include="Content\02_Observer\Microsoft\MeasurementReporter.cs" />
+    <Compile Include="Content\02_Observer\Microsoft\MeasurementTracker.cs" />
+    <Compile Include="Content\02_Observer\Microsoft\MeasurementUnknownException.cs" />
+    <Compile Include="Content\02_Observer\HeadFirst\WeatherData.cs" />
+    <Compile Include="Content\02_Observer\WeatherStation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

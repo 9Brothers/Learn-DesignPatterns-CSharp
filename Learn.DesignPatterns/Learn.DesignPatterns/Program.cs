@@ -1,4 +1,5 @@
 ﻿using Learn.DesignPatterns._01_Strategy;
+using Learn.DesignPatterns.Content._02_Observer;
 using System;
 
 namespace Learn.DesignPatterns
@@ -7,7 +8,11 @@ namespace Learn.DesignPatterns
   {
     static void Main(string[] args)
     {
-      MiniDuckSimulator.Run();
+      // STRATEGY
+      //MiniDuckSimulator.Run(); 
+
+      // OBSERVER
+      WeatherStation.Run();
 
       Console.Read();
     }
