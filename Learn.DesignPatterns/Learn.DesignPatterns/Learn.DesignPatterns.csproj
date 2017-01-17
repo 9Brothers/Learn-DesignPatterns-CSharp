@@ -64,6 +64,12 @@
     <Compile Include="Content\02_Observer\Microsoft\MeasurementUnknownException.cs" />
     <Compile Include="Content\02_Observer\HeadFirst\WeatherData.cs" />
     <Compile Include="Content\02_Observer\WeatherStation.cs" />
+    <Compile Include="Content\03_Decorator\Beverage.cs" />
+    <Compile Include="Content\03_Decorator\CondimentsDecorator.cs" />
+    <Compile Include="Content\03_Decorator\Expresso.cs" />
+    <Compile Include="Content\03_Decorator\HouseBlend.cs" />
+    <Compile Include="Content\03_Decorator\Mocha.cs" />
+    <Compile Include="Content\03_Decorator\StarbuzzCoffee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

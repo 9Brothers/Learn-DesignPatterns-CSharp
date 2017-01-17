@@ -1,5 +1,6 @@
 ﻿using Learn.DesignPatterns._01_Strategy;
 using Learn.DesignPatterns.Content._02_Observer;
+using Learn.DesignPatterns.Content._03_Decorator;
 using System;
 
 namespace Learn.DesignPatterns
@@ -12,7 +13,11 @@ namespace Learn.DesignPatterns
       //MiniDuckSimulator.Run(); 
 
       // OBSERVER
-      WeatherStation.Run();
+      //WeatherStation.Run();
+
+      // DECORATOR
+      StarbuzzCoffee.Run();
+
 
       Console.Read();
     }
