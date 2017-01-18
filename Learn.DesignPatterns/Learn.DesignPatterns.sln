@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.DesignPatterns", "Learn.DesignPatterns\Learn.DesignPatterns.csproj", "{1EB1794B-5010-41FA-9416-C3F29D7D4DFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.DesignPatterns.01_Strategy", "Learn.DesignPatterns.01_Strategy\Learn.DesignPatterns.01_Strategy.csproj", "{81727BC0-2AD7-43E9-9933-C84F0821EAD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.DesignPatterns.02_Observer", "Learn.DesignPatterns.02_Observer\Learn.DesignPatterns.02_Observer.csproj", "{354F581B-716C-48AC-8D9D-28A684BD8C64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.DesignPatterns.03_Decorator", "Learn.DesignPatterns.03_Decorator\Learn.DesignPatterns.03_Decorator.csproj", "{DA84C933-B588-42B1-A634-B2C5B25D9AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.DesignPatterns.04_Factory", "Learn.DesignPatterns.04_Factory\Learn.DesignPatterns.04_Factory.csproj", "{DC638902-EC67-438F-87E6-76B70C266601}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1EB1794B-5010-41FA-9416-C3F29D7D4DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EB1794B-5010-41FA-9416-C3F29D7D4DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EB1794B-5010-41FA-9416-C3F29D7D4DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EB1794B-5010-41FA-9416-C3F29D7D4DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81727BC0-2AD7-43E9-9933-C84F0821EAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81727BC0-2AD7-43E9-9933-C84F0821EAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81727BC0-2AD7-43E9-9933-C84F0821EAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81727BC0-2AD7-43E9-9933-C84F0821EAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354F581B-716C-48AC-8D9D-28A684BD8C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354F581B-716C-48AC-8D9D-28A684BD8C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354F581B-716C-48AC-8D9D-28A684BD8C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354F581B-716C-48AC-8D9D-28A684BD8C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA84C933-B588-42B1-A634-B2C5B25D9AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA84C933-B588-42B1-A634-B2C5B25D9AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA84C933-B588-42B1-A634-B2C5B25D9AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA84C933-B588-42B1-A634-B2C5B25D9AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC638902-EC67-438F-87E6-76B70C266601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC638902-EC67-438F-87E6-76B70C266601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC638902-EC67-438F-87E6-76B70C266601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC638902-EC67-438F-87E6-76B70C266601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
