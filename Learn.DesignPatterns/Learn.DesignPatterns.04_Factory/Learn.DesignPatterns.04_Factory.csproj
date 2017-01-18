@@ -89,7 +89,6 @@
     <Compile Include="Content\Pizzas\Pizza.cs" />
     <Compile Include="Content\Pizzas\VeggiePizza.cs" />
     <Compile Include="Content\PizzaTestDrive.cs" />
-    <Compile Include="Content\SimplePizzaFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
