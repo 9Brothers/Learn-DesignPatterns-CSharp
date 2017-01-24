@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.DesignPatterns.03_Dec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.DesignPatterns.04_Factory", "Learn.DesignPatterns.04_Factory\Learn.DesignPatterns.04_Factory.csproj", "{DC638902-EC67-438F-87E6-76B70C266601}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.DesignPatterns.05_Singleton", "Learn.DesignPatterns.05_Singleton\Learn.DesignPatterns.05_Singleton.csproj", "{F161AC8A-B768-495F-AC0F-16A02973D710}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DC638902-EC67-438F-87E6-76B70C266601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC638902-EC67-438F-87E6-76B70C266601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC638902-EC67-438F-87E6-76B70C266601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F161AC8A-B768-495F-AC0F-16A02973D710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F161AC8A-B768-495F-AC0F-16A02973D710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F161AC8A-B768-495F-AC0F-16A02973D710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F161AC8A-B768-495F-AC0F-16A02973D710}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
