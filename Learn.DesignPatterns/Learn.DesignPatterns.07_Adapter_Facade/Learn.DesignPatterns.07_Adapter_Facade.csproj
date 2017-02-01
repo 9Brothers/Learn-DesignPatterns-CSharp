@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44AA6B86-0BF8-4D52-BC3A-F2086FEC5B7C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Learn.DesignPatterns._07_Adapter_Facade</RootNamespace>
+    <AssemblyName>Learn.DesignPatterns.07_Adapter_Facade</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Content\Adapter\App.cs" />
+    <Compile Include="Content\Adapter\Duck.cs" />
+    <Compile Include="Content\Adapter\DuckTestDrive.cs" />
+    <Compile Include="Content\Adapter\Turkey.cs" />
+    <Compile Include="Content\Adapter\TurkeyAdapter.cs" />
+    <Compile Include="Content\Adapter\WildTurkey.cs" />
+    <Compile Include="Content\Adapter\EnumerationIterator.cs" />
+    <Compile Include="Content\Adapter\People.cs" />
+    <Compile Include="Content\Adapter\PeopleEnum.cs" />
+    <Compile Include="Content\Adapter\Person.cs" />
+    <Compile Include="Content\Facade\Amplifier.cs" />
+    <Compile Include="Content\Facade\CdPlayer.cs" />
+    <Compile Include="Content\Facade\DvdPlayer.cs" />
+    <Compile Include="Content\Facade\HomeTheaterFacade.cs" />
+    <Compile Include="Content\Facade\HomeTheaterTestDrive.cs" />
+    <Compile Include="Content\Facade\MyTuner.cs" />
+    <Compile Include="Content\Facade\PopcornPopper.cs" />
+    <Compile Include="Content\Facade\Projector.cs" />
+    <Compile Include="Content\Facade\Screen.cs" />
+    <Compile Include="Content\Facade\TheaterLights.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
